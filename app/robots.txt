@@ -1,0 +1,8 @@
+# Hello There!
+# You shouldn't be here snooping around...
+# It's okay, we're all a little bit curious
+# Be safe :)
+#
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
