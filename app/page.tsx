@@ -3,7 +3,9 @@ export default function Home() {
         <main className="flex items-center justify-center">
             <div className="text-white">
                 <div className="typewriter">
-                    <h1>Peter Bosman</h1>
+                    <a href="/portfolio">
+                        <h1>Peter Bosman</h1>
+                    </a>
                 </div>
             </div>
         </main>
