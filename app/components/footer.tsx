@@ -8,7 +8,7 @@ export default function Footer() {
                 <div>
                     <div>
                         <div className="flex items-center justify-center pb-2">
-                            <a className="pr-3" href="https://www.linkedin.com/in/peter-bosman0">
+                            <a className="pr-3" href="https://www.linkedin.com/in/peterbosmanbe">
                                 <Image
                                     src="/socialmedia/linkedin.png"
                                     alt="LinkedIn"
