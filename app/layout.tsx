@@ -1,6 +1,10 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Footer from "./components/footer";
+
+import MainLayout from "@/app/components/MainLayout";
+import {Suspense} from "react";
+import {white} from "next/dist/lib/picocolors";
+import Loading from "@/app/loading";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,9 +27,12 @@ export default function RootLayout({
       <meta name="twitter:card" content="summary"/>
     </head>
     <body className={inter.className}>
-    <div className="flex flex-col min-h-screen">
-      <div className="flex flex-grow items-center justify-center">{children}</div>
-      <Footer />
+    <div className="flex flex-col h-screen py-3 w-full">
+      <Suspense fallback={<Loading/>}>
+        <MainLayout>
+          {children}
+        </MainLayout>
+      </Suspense>
     </div>
     </body>
     </html>
