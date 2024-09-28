@@ -15,6 +15,14 @@ const projects = [
         image: "/assets/images/DishCover.png",
         link: "https://dishcover-frkr2pe4bq-ew.a.run.app/recipeslist"
     },
+    {
+        id: 3,
+        title: "Personal Website",
+        description: "This is the website you're currently on right now, this is the first non school project",
+        dateOfProject: "23 April 2024 - Current",
+        image: "/assets/images/portfolio.png",
+        link: "https://peterbosman.be/"
+    },
 ];
 
 export default projects;
