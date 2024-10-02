@@ -1,3 +1,5 @@
+"use client";
+
 import { Header } from "../../components/header";
 import dishCoverImage from "../../../public/assets/images/DishCover.png";
 import React from "react";
