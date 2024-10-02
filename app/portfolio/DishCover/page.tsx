@@ -1,6 +1,5 @@
-"use client";
-
 import { Header } from "../../components/header";
+import Image from "next/image";
 import dishCoverImage from "../../../public/assets/images/DishCover.png";
 import React from "react";
 
@@ -11,7 +10,7 @@ export default function Portfolio() {
             <div className="text-white text-center my-4 flex items-center justify-center w-full pl-8">
                 <div className="flex-1 flex flex-col items-center">
                     <a href="https://dishcover-frkr2pe4bq-ew.a.run.app/recipeslist">
-                        <img src={dishCoverImage.src} alt="DishCover" className="w-3/4 mt-4 mx-auto" />
+                        <Image src={dishCoverImage} alt="DishCover" className="w-3/4 mt-4 mx-auto" />
                     </a>
                     <div className="w-3/4 mt-4 flex justify-center">
                         <iframe
