@@ -26,6 +26,15 @@ export default function Footer() {
                                     priority
                                 />
                             </a>
+                            <a className="pr-3" href="https://instagram.com/PeterBosmanBE">
+                                <Image
+                                    src="/socialmedia/instagram.png"
+                                    alt="Instagram"
+                                    width={40}
+                                    height={40}
+                                    priority
+                                />
+                            </a>
                             <a rel="me" href="https://mastodon.social/@peterbosman">
                                 <Image
                                     src="/socialmedia/mastodon.png"
