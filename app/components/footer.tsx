@@ -35,6 +35,15 @@ export default function Footer() {
                                     priority
                                 />
                             </a>
+                            <a className="pr-3" href="https://youtube.com/channel/UCY0OHYJrsAga4A9C0jtoiHQ">
+                                <Image
+                                    src="/socialmedia/YouTube.png"
+                                    alt="YouTube"
+                                    width={40}
+                                    height={40}
+                                    priority
+                                />
+                            </a>
                             <a rel="me" href="https://mastodon.social/@peterbosman">
                                 <Image
                                     src="/socialmedia/mastodon.png"
