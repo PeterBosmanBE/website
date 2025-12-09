@@ -24,7 +24,7 @@ html, body {
 }
 
 body {
-  background-image: url('../public/background.gif');
+  background-image: url('../../public/background.gif');
   background-repeat: no-repeat;
   background-size: cover;
 }

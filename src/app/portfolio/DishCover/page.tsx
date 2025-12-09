@@ -1,4 +1,4 @@
-import { Header } from "../../components/header";
+import { Header } from "../../../components/header";
 import Image from "next/image";
 import dishCoverImage from "../../../public/assets/images/DishCover.png";
 import React from "react";

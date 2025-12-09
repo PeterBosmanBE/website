@@ -2,7 +2,7 @@
 
 import { Card } from "antd";
 import React from "react";
-import projects from "../data/data";
+import projects from "../../data/data";
 
 const { Meta } = Card;
 
