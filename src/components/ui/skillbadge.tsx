@@ -16,7 +16,7 @@ export default function SkillBadge({ skillName, customName, customURL }: SkillTy
 
   return (
     <div className="flex items-center gap-2">
-      <a href={skillURL}>
+      <a href={skillURL} target="_blank">
         <div className="flex items-center outline rounded-md p-2 pr-2 gap-1 gap-2 transform">
           <div className="w-6 h-6 flex-shrink-0">{skill?.icon()}</div>
           <div className="text-[20px] leading-[25px]">{skillTitle}</div>
