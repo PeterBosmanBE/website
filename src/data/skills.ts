@@ -51,6 +51,11 @@ export const Skills = {
     icon: Icons.SpringBoot,
     link: "https://spring.io/projects/spring-boot",
   },
+  Java: {
+    title: "Java",
+    icon: Icons.Java,
+    link: "https://www.java.com/",
+  },
   
   // SQL (Databases)
   PostgreSQL: {
