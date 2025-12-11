@@ -1,6 +1,6 @@
 import { Header } from "../../../components/header";
 import Image from "next/image";
-import dishCoverImage from "../../../public/assets/images/DishCover.png";
+import dishCoverImage from "../../../../public/assets/images/DishCover.png";
 import React from "react";
 
 export default function Portfolio() {

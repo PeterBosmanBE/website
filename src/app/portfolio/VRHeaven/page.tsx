@@ -1,6 +1,6 @@
 import { Header } from "../../../components/header";
 import Image from "next/image";
-import vrHeavenImage from "../../../public/assets/images/VRHeaven.png";
+import vrHeavenImage from "../../../../public/assets/images/VRHeaven.png";
 import React from "react";
 
 export default function Portfolio() {
