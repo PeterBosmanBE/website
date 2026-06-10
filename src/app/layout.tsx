@@ -1,7 +1,30 @@
 import { Inter } from "next/font/google";
-import "../../src/app/globals.css";
+import "@/src/styles/globals.css";
+import { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
+
+export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL!),
+  title: "Peter Bosman",
+  description: "Portfolio 'n stuff",
+  openGraph: {
+    title: "Peter Bosman",
+    description: "Portfolio 'n stuff",
+    siteName: "Peter Bosman",
+    url: process.env.NEXT_PUBLIC_BASE_URL!,
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Peter Bosman",
+    description: "Portfolio 'n stuff",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
 
 export default function RootLayout({
   children,
@@ -10,22 +33,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-    <head>
-      <title>Peter Bosman</title>
-      <meta name="description" content="Portfolio 'n stuff"/>
-      <meta property="og:title" content="Peter Bosman"/>
-      <meta property="og:description" content="Portfolio 'n stuff"/>
-      <meta property="og:url" content="https://peterbosman.be"/>
-      <meta name="twitter:title" content="Peter Bosman"/>
-      <meta name="twitter:description" content="Portfolio 'n stuff"/>
-      <meta name="twitter:url" content="https://peterbosman.be"/>
-      <meta name="twitter:card" content="summary"/>
-    </head>
-    <body className={inter.className}>
-    <div className="flex flex-col min-h-screen">
-      <div className="flex flex-grow items-center justify-center">{children}</div>
-    </div>
-    </body>
+      <body className={inter.className}>
+        <div className="flex flex-col min-h-screen">
+          <div className="flex flex-grow items-center justify-center">
+            {children}
+          </div>
+        </div>
+      </body>
     </html>
   );
 }
