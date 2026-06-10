@@ -424,7 +424,7 @@ export const projects = [
     description:
       "A web application for managing an arboretum's plant collection, built with Next.js, TypeScript, and PostgreSQL. Features include plant cataloging, care scheduling, and a public-facing plant encyclopedia.",
     associated: [organizations.oostVlaanderen.name],
-    image: "/assets/images/ArboretumManagement.png",
+    image: "/assets/images/projects/ArboretumManagement.png",
     technologies: [
       SKILLS.angular,
       SKILLS.typescript,
@@ -443,7 +443,7 @@ export const projects = [
     endDate: "April 2026",
     description: "",
     associated: [organizations.thomasMore.name],
-    image: "/assets/images/Chapter.png",
+    image: "/assets/images/projects/Chapter.png",
     technologies: [
       SKILLS.nextjs,
       SKILLS.typescript,
@@ -462,7 +462,7 @@ export const projects = [
     endDate: "November 2025",
     description: "",
     associated: [organizations.politie.name],
-    image: "/assets/images/LocalPoliceApplication.png",
+    image: "/assets/images/projects/LocalPoliceApplication.png",
     technologies: [
       SKILLS.nextjs,
       SKILLS.antd,
@@ -482,7 +482,7 @@ export const projects = [
     description:
       "DishCover is my first team project made by Peter, Carolina, Rob and Mohamed. This website was built using Java, Spring Boot, Basic JavaScript, HTML, CSS and Bootstrap. Given a limited amount of time (1.5 months), we created an amazing website to showcase our teamwork, skills, communication and dedication to delivering a fantastic product in a short amount of time.",
     associated: [organizations.thomasMore.name],
-    image: "/assets/images/DishCover.png",
+    image: "/assets/images/projects/DishCover.png",
     video: "https://www.youtube.com/watch?v=5rSmR26AZDg",
     technologies: [
       SKILLS.java,
@@ -502,7 +502,7 @@ export const projects = [
     description:
       "This is my first project that I made for school. I had to create a website about something I was interested in. A hobby, sport, film, book, etc... I chose Virtual Reality, more specifically VRChat, something I had been very interested in for over 3 years when I made the website.",
     associated: [organizations.thomasMore.name],
-    image: "/assets/images/VRHeaven.png",
+    image: "/assets/images/projects/VRHeaven.png",
     technologies: [SKILLS.html, SKILLS.css, SKILLS.bootstrap],
     github: "https://github.com/PeterBosmanBE/VRHeaven",
     live: "https://themasite.peterbosman.be/index.html",
